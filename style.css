@@ -436,3 +436,9 @@ h2 {
 h1 {
   font-size: 29px;
 }
+
+#blurred-box {
+  background-color: rgba(207, 206, 206, 0.295);
+  backdrop-filter: blur(5px);
+  border-radius: 1rem;
+}
