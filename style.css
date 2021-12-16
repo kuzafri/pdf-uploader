@@ -2,16 +2,6 @@ body {
   background-color: rgb(146, 165, 190);
 }
 
-/*
-  terrible.css
-  Andrew Tunecliffe, 2015
-  http://atunnecliffe.com
-*/
-/* uncomment to see outlines of stuff when you hover *-/
-:hover {
-  background:rgba(0, 0, 0, 0.1);
-}/**/
-
 html,
 body {
   margin: 0;
@@ -22,7 +12,7 @@ body {
   width: 100%;
 }
 
-.container {
+.container2 {
   position: relative;
   width: 1170px;
   margin: 0 auto;
@@ -33,7 +23,7 @@ body {
   overflow: hidden;
 }
 
-.section .container {
+.section .container2 {
   padding: 30px 0 50px 0;
 }
 
@@ -64,7 +54,7 @@ body {
   box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.8);
 }
 
-.header.small > .container > #logo {
+.header.small > .container2 > #logo {
   height: 40px;
 }
 
@@ -295,12 +285,12 @@ h1.hero:after {
   Text
 */
 
-.container > h1:not(.hero) {
+.container2 > h1:not(.hero) {
   margin-bottom: 30px;
   text-align: center;
 }
 
-.container > h1:after {
+.container2 > h1:after {
   content: "";
   width: 30px;
   position: relative;
@@ -353,7 +343,7 @@ h2 {
 }
 
 @media all and (max-width: 768px) {
-  .container {
+  .container2 {
     width: 95%;
   }
   .col.four {
@@ -399,19 +389,19 @@ h2 {
 }
 
 @media all and (min-width: 768px) {
-  .container {
+  .container2 {
     width: 750px;
   }
 }
 
 @media all and (min-width: 992px) {
-  .container {
+  .container2 {
     width: 970px;
   }
 }
 
 @media all and (min-width: 1200px) {
-  .container {
+  .container2 {
     width: 1170px;
   }
 }
