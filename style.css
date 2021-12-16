@@ -431,6 +431,17 @@ h2 {
   padding: 50px;
   padding-bottom: 90px;
   border-radius: 20px;
+  width: 50%;
+}
+
+@media screen and (max-width: 430px) {
+  .container {
+    border: 2px solid black;
+    padding: 50px;
+    padding-bottom: 90px;
+    border-radius: 20px;
+    width: 90%;
+  }
 }
 
 h1 {

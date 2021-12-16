@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+.box {
+  background: #2a2a2c;
+  border: 0.1em solid #bebebe;
+  bottom: 0;
+  font-family: "Open sans", sans-serif;
+  font-size: 1.1em;
+  height: 11em;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+  right: 0;
+  top: 0;
+  width: 30em;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+}
+
+@media all and (max-width: 33em) {
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+}
+.box .instruction {
+  background: #bebebe;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+  margin-bottom: 1.2em;
+  padding: 0.4em;
+  text-align: center;
+  text-shadow: 0.05em 0.05em #fff;
+  -moz-box-shadow: 0.2em 0 0.3em #000;
+  -webkit-box-shadow: 0.2em 0 0.3em #000;
+  box-shadow: 0.2em 0 0.3em #000;
+}
+.box .line {
+  font-family: Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+  padding: 0.1em 0.7em;
+  color: rgba(190, 190, 190, 0.4);
+}
+.box .line div {
+  display: inline-block;
+}
+.box .line .tild {
+  color: aqua;
+}
+.box .line .doller {
+  color: #cc8400;
+}
+.box .line .content {
+  color: #ffffad;
+}
